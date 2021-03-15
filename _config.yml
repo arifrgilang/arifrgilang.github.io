@@ -1,0 +1,96 @@
+### Site Settings ###
+title               : Arif R Gilang
+description         : >-
+                      Hey there. My name is Arif. I am learning Native Android development since 2018. I am capable to make Android App using Kotlin with MVVM design pattern, RxJava, Dagger/Hilt, and Clean Architecture. 
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : arifrgilang/arifrgilang.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Arif R Gilang
+  image             : https://media-exp1.licdn.com/dms/image/C5603AQEYaKDQ8e7PTw/profile-displayphoto-shrink_200_200/0/1589958322859?e=1621468800&v=beta&t=zgC0algz4tCfhmCCXCxTtbs_cZ4bGJi0GxwQCc04aWU
+# behance           : your_username
+# dribbble          : your_username
+  email             : arifrgilang@gmail.com
+# facebook          : your_username
+  github            : arifrgilang
+# gitlab            : your_username
+  instagram         : arifrgilang
+# kaggle            : your_username
+  linkedin          : arifrgilang
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: arifrgilang                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
