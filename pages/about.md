@@ -8,6 +8,9 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
+
+I am a Native Android Developer since 2018. I am capable to make Android App using Kotlin with MVVM design pattern, RxJava, Dagger/Hilt, and Clean Architecture.
+
 🛠 Tech Stack
 - Programming Language { Java, Kotlin, Javascript, Python }
 - Backend { Node.js, Express.js }
