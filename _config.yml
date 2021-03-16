@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Arif R Gilang
 description         : >-
-                      Android Developer
+                      Hey there. My name is Arif. I have been learning about Native Android development since 2018. I have experience to make Android App using Kotlin with MVVM design pattern, RxJava, Dagger/Hilt, and Clean Architecture.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : arifrgilang/arifrgilang.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : arifrgilang/portfolYOU
