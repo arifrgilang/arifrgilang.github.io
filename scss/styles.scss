@@ -175,12 +175,12 @@ header {
         &:hover {
             color: $base-color-hover;
             text-decoration: none;
-            background: $heading;
+            background: #fff;
             border-radius: 4px;
         }
 
         &:focus {
-            color: $base-color;
+            color: #fff;
             text-decoration: none;
         }
     }
