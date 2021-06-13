@@ -169,13 +169,13 @@ header {
 
     a {
         display: block;
-        color: $background-alt;
+        color: $text;
         padding: 10px;
 
         &:hover {
             color: $base-color-hover;
             text-decoration: none;
-            background: #eee;
+            background: $heading;
             border-radius: 4px;
         }
 
