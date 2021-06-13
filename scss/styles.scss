@@ -755,7 +755,7 @@ footer {
         color: $text;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: $text;
         }
 
         &:focus {
