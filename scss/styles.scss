@@ -714,7 +714,7 @@ footer {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
-        color: $background-alt;
+        color: $heading;
         background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
@@ -751,8 +751,8 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: darken($background-alt, 15%);
-        color: #fff;
+        background: #fff;
+        color: $heading;
         @include transition();
         @include placeholder {
             color: #fff;
@@ -958,9 +958,9 @@ footer {
         }
     }
 
-    // .project-image {
-    //     display: none;
-    // }
+    .project-image {
+        display: none;
+    }
 
     .project-info {
         position: relative;
