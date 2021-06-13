@@ -154,7 +154,7 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
+        background: $background-alt;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -164,6 +164,7 @@ header {
 
     li {
         display: inline-block;
+        color: $heading;
     }
 
     a {
@@ -931,6 +932,7 @@ footer {
         li {
             display: block;
             margin-bottom: 10px;
+            color: $heading;
         }
     }
 
