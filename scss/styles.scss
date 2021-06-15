@@ -965,7 +965,7 @@ footer {
         // display: none;
         width: 100%;
         height: auto;
-        object-fit: cover;
+        overflow: hidden;
     }
 
     .project-info {
